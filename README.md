@@ -100,7 +100,7 @@ uv run python deploy2.py
 ```
 
 A API estará disponível em:  
-👉 **https://servidor-api-agente-de-pdf.onrender.com**
+👉 **https://servidor-api-agente-de-pdf.onrender.com/docs**
 
 ---
 
