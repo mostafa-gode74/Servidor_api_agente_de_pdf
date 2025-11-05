@@ -34,13 +34,21 @@ agente-pdf-ia/
 ## ⚙️ Funcionalidades
 
 ### 🔙 Backend (API)
+
+![Backend API](./Servidor_API.png)
+
 - ✅ Processamento de documentos PDF  
 - ✅ Q&A inteligente sobre o conteúdo  
 - ✅ Integração com AgentOS  
 - ✅ API REST endpoints  
 - ✅ Armazenamento vetorial com ChromaDB  
 
+---
+
 ### 🖥️ Frontend (Streamlit)
+
+![Interface do Agente](./Agente de PDF.png)
+
 - ✅ Upload de arquivos PDF  
 - ✅ Interface para perguntas e respostas  
 - ✅ Visualização de resultados  
