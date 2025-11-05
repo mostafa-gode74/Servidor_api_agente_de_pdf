@@ -47,7 +47,7 @@ agente-pdf-ia/
 
 ### 🖥️ Frontend (Streamlit)
 
-![Interface do Agente](./Agente de PDF.png)
+![Interface do Agente]("./Agente de PDF.png")
 
 - ✅ Upload de arquivos PDF  
 - ✅ Interface para perguntas e respostas  
