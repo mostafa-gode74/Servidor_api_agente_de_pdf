@@ -46,4 +46,5 @@ if __name__ == "__main__":
         reader=PDFReader()
     )
     
-    agent_os.serve(app="deploy2:app", reload=True)
+
+    agent_os.serve(app="deploy2:app", host="0.0.0.0" , port=10000, reload=True)
